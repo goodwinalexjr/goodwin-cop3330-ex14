@@ -1,3 +1,8 @@
+/*
+ *  UCF COP3330 Summer 2021 Assignment 1 Solution
+ *  Copyright 2021 Alex Goodwin
+ */
+
 package org.example;
 
 import java.text.DecimalFormat;
@@ -9,8 +14,12 @@ public class App {
         System.out.print("What is the order amount? ");
         String mon = sc.nextLine();
         double money = Double.parseDouble(mon);
+
+
         System.out.print("What is the state? ");
         String state = sc.nextLine();
+
+
         DecimalFormat df = new DecimalFormat("#.00");
 
         double tax = 0;
